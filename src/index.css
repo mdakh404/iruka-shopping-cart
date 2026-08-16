@@ -8,4 +8,10 @@
 :root 
 {
     --font-primary: 'Outfit', sans-serif;
+    --font-secondary: 'JetBrains Mono', monospace;
+}
+
+html, body 
+{
+    overscroll-behavior-y: none;
 }
