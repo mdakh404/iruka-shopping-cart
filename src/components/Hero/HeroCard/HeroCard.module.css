@@ -1,0 +1,32 @@
+.card 
+{
+    width: 550px;
+    height: 400px;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 1.5rem;
+}
+
+.card img 
+{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: left center;
+    border-radius: inherit;
+    position: absolute;
+    z-index: 999;
+}
+
+.cardWithoutImage
+{
+    margin-top: 30px;
+    width: 500px;
+    height: 400px;
+    background-color: #F8E9BE;
+    border-radius: 1.5rem;
+    transform: translateX(4px) translateY(-30px) rotate(5deg);
+    position: absolute;
+    z-index: 0;
+}
